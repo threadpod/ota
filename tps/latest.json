@@ -1,0 +1,14 @@
+{
+  "module": "tps",
+  "channel": "stable",
+  "version": "0.0.0",
+  "build": 0,
+  "date": "2026-04-23",
+  "url": "",
+  "size": 0,
+  "sha256": "",
+  "sig_ecdsa_p256": "",
+  "min_version": "0.0.0",
+  "rollout_percent": 0,
+  "notes": "Placeholder initial — aucune release pour le moment"
+}

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ThreadPod OTA</title>
+  <style>
+    body { font-family: -apple-system, system-ui, sans-serif; max-width: 720px; margin: 2rem auto; padding: 0 1rem; color: #222; line-height: 1.5; }
+    h1 { margin-bottom: .2rem; }
+    .tag { background: #eef; display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 13px; color: #447; }
+    table { border-collapse: collapse; width: 100%; margin: 1rem 0; }
+    th, td { padding: .5rem; border-bottom: 1px solid #eee; text-align: left; }
+    code { background: #f4f4f4; padding: 1px 6px; border-radius: 3px; font-size: 13px; }
+    .muted { color: #666; font-size: 13px; }
+  </style>
+</head>
+<body>
+  <h1>ThreadPod OTA</h1>
+  <p class="tag">Distribution des mises à jour firmware signées</p>
+
+  <p>Ce site sert les manifests OTA pour les modules ThreadPod.</p>
+
+  <h2>Modules</h2>
+  <table>
+    <tr><th>Code</th><th>Produit</th><th>Stable</th><th>Latest</th></tr>
+    <tr><td><code>tpd</code></td><td>Dev hardware</td><td><a href="tpd/stable.json">manifest</a></td><td><a href="tpd/latest.json">manifest</a></td></tr>
+    <tr><td><code>tpp</code></td><td>Pool</td><td><a href="tpp/stable.json">manifest</a></td><td><a href="tpp/latest.json">manifest</a></td></tr>
+    <tr><td><code>tpg</code></td><td>Garden</td><td><a href="tpg/stable.json">manifest</a></td><td><a href="tpg/latest.json">manifest</a></td></tr>
+    <tr><td><code>tph</code></td><td>Heating</td><td><a href="tph/stable.json">manifest</a></td><td><a href="tph/latest.json">manifest</a></td></tr>
+    <tr><td><code>tps</code></td><td>Somfy bridge</td><td><a href="tps/stable.json">manifest</a></td><td><a href="tps/latest.json">manifest</a></td></tr>
+  </table>
+
+  <h2>Sécurité</h2>
+  <p>Les binaires sont signés ECDSA P-256. La clé publique est
+  <a href="../pubkey.pem">publiée en clair</a> et son empreinte SHA-256
+  doit correspondre à celle embarquée dans le firmware.</p>
+
+  <p class="muted">Source : <a href="https://github.com/threadpod/ota">github.com/threadpod/ota</a></p>
+</body>
+</html>
