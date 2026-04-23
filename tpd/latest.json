@@ -1,14 +1,14 @@
 {
   "module": "tpd",
   "channel": "latest",
-  "version": "0.0.0-dev",
-  "build": 8,
+  "version": "1.0.12-dev",
+  "build": 10,
   "date": "2026-04-23",
-  "url": "https://github.com/threadpod/ota/releases/download/tpd-v0.0.0-dev-nightly.8/tpd.bin",
-  "size": 1327024,
-  "sha256": "b18efd86497a0e5e0f0ff73eaddd9acec8cecfc74f4f1e759e916550688b1dc0",
-  "sig_ecdsa_p256": "6aaf72d4a2620da7615a17541396d68cbd9cf820e2e41a9de86c1d16e7ca29a5953d160e3edd87c46a127cd4bf3db768c5b3dd07cdfb6bd7985c17d8a6828ff6",
+  "url": "https://github.com/threadpod/ota/releases/download/tpd-v1.0.12-dev-nightly.10/tpd.bin",
+  "size": 1327056,
+  "sha256": "ea771cec4d86bf8e8489e4f09aa86c37efe63632a3855f837818430da9066a2c",
+  "sig_ecdsa_p256": "158d898955a61427b5397e3885ba64839610755002e4b602c81cf3a62e7494ed8e1d1cc337dd3bafc6070c1592212a17a63b69b371952e3e6911b638090f4b58",
   "min_version": "1.0.0",
   "rollout_percent": 100,
-  "notes": "8738256"
+  "notes": "dbe85fe"
 }
