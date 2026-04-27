@@ -10,6 +10,6 @@
   "sha256": "0d6d1594caef677b5adaa47475cb31fe98349ecd3ca0bf65044236035eec73ca",
   "sig_ecdsa_p256": "20bd223c814d9f730ee32924adbcac493bdb36b319a196c5808932ea4c78fd4328252696e0eacf234efd3732cc0ae8263b266477217bf3c081e9a77650cc830d",
   "min_version": "1.0.0",
-  "rollout_percent": 10,
+  "rollout_percent": 100,
   "notes": "2c18826"
 }
